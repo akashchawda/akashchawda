@@ -20,7 +20,7 @@ if (!mysqli_query($con,$sql)) {
   die('Error: ' . mysqli_error($con));
 }
 else
-    echo "1 record added and done";
+    echo "1 record added";
 
 mysqli_close($con);
 
